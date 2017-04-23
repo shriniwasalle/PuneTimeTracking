@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="12775" started-at="2017-04-23T07:05:55Z" finished-at="2017-04-23T07:06:08Z">
+  <suite name="Default suite" duration-ms="11855" started-at="2017-04-23T07:23:05Z" finished-at="2017-04-23T07:23:17Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="12775" started-at="2017-04-23T07:05:55Z" finished-at="2017-04-23T07:06:08Z">
+    <test name="Default test" duration-ms="11855" started-at="2017-04-23T07:23:05Z" finished-at="2017-04-23T07:23:17Z">
       <class name="com.bcone.punetimetracking.testscripts.PuneTimeTrackingForm">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bcone.punetimetracking.testscripts.PuneTimeTrackingForm@47c62251]" name="setUp" is-config="true" duration-ms="7387" started-at="2017-04-23T12:35:55Z" finished-at="2017-04-23T12:36:03Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bcone.punetimetracking.testscripts.PuneTimeTrackingForm@47c62251]" name="setUp" is-config="true" duration-ms="6503" started-at="2017-04-23T12:53:05Z" finished-at="2017-04-23T12:53:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="submitForm(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.bcone.punetimetracking.testscripts.PuneTimeTrackingForm@47c62251]" name="submitForm" duration-ms="4717" started-at="2017-04-23T12:36:03Z" data-provider="excelData" finished-at="2017-04-23T12:36:08Z">
+        <test-method status="PASS" signature="submitForm(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.bcone.punetimetracking.testscripts.PuneTimeTrackingForm@47c62251]" name="submitForm" duration-ms="4773" started-at="2017-04-23T12:53:12Z" data-provider="excelData" finished-at="2017-04-23T12:53:17Z">
           <params>
             <param index="0">
               <value>
