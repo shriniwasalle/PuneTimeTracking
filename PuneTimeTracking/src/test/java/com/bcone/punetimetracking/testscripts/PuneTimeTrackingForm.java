@@ -2,8 +2,8 @@ package com.bcone.punetimetracking.testscripts;
 
 import java.io.IOException;
 
-import org.apache.log4j.Logger;
-import org.apache.log4j.PropertyConfigurator;
+/*import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;*/
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -15,7 +15,7 @@ import com.bcone.punetimetracking.utils.Utils;
 
 public class PuneTimeTrackingForm  {
 	
-	static Logger log = Logger.getLogger(TimeTrackingForm.class.getName());
+	//static Logger log = Logger.getLogger(TimeTrackingForm.class.getName());
 	TimeTrackingForm form;
 	Utils driverObj;
 	
@@ -27,7 +27,7 @@ public class PuneTimeTrackingForm  {
 	@SuppressWarnings("static-access")
 	@Test(dataProvider="excelData")
 	public void submitForm(String name, String workType, String dept, String caseNumber, String timeSpent) throws IOException, InterruptedException {
-		PropertyConfigurator.configure("Log4j.properties");
+		//PropertyConfigurator.configure("Log4j.properties");
 		driverObj = new Utils();
 		form = new TimeTrackingForm();
 		form.selectName(name);
@@ -37,10 +37,10 @@ public class PuneTimeTrackingForm  {
 		form.enterCaseNumber(caseNumber);
 		form.enterTimeSpent(timeSpent);
 		
-		if(driverObj.driver.getPageSource().contains("Your response has been recorded.") == true)
-			log.info(caseNumber + " : " +"Success");
-		else
-			log.error(caseNumber + " : " +"Failure");
+		//if(driverObj.driver.getPageSource().contains("Your response has been recorded.") == true)
+			//log.info(caseNumber + " : " +"Success");
+		//else
+			//log.error(caseNumber + " : " +"Failure");
 		//Thread.sleep(1000);
 		//form.refreshBrowser();
 		//Thread.sleep(1000);

@@ -2,7 +2,7 @@ package com.bcone.punetimetracking.pagelibrary;
 
 import java.util.List;
 
-import org.apache.log4j.Logger;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
@@ -10,7 +10,7 @@ import com.bcone.punetimetracking.base.Base;
 
 public class TimeTrackingForm extends Base {
 
-	static Logger log = Logger.getLogger(TimeTrackingForm.class.getName());
+	//static Logger log = Logger.getLogger(TimeTrackingForm.class.getName());
 
 	WebElement dropDown = driver.findElement(By.xpath(".//*[@id='mG61Hd']/div/div[2]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]"));
 
